@@ -3,17 +3,17 @@
 
 <img width="1000" src="https://github.com/Mangeshgp14/People-Analytics-HR-Analytics-Dashboard-Development-/blob/main/HR%20Analytics.jpg" >
 
-<h3>Project Report : <a href="https://drive.google.com/file/d/1tNhVYx7UJC5ZdQaL4eaujFUK_1Be42H2/view?usp=sharing">Link</a></h3>
+<h3>Project Report : <a href="https://docs.google.com/document/d/1rnj3-LmxuiUeKIMZCYmahlwEMm9ZHICnR6tiuZkZqok/edit?usp=sharing">Link</a></h3>
 
 <h3>Business Problem</h3>
 <p>
-The client is an Android developer who wants to build an app to launch it in the Google Play store. 
-He has approached us to analyze the Play Store and provide suggestions on what kind of app to build to get the most downloads, revenue, and ratings possible.
-The Key Business Requirements are:
+The Human Resources department of ABC, a multinational company has approached our analytics firm. They are seeking our help in building a modern, interactive dashboard to present to their management executives.
+They have identified some key aspects which need to be depicted in these dashboards.
+They want a dashboard that can automatically update as and when the backend data is annually updated.
 <ol>
-   <li> To identify the best category to launch the app, in terms of no. of downloads, pricing, revenue, etc.
+   <li> The client wants to present some KPIs such as employee count, employee diversity, YoY growth, etc to the top executive management.
    </li>
-   <li>To build a dashboard to display the findings in terms of charts and also monitor the Play Store as and when the dataset updates.
+   <li>They also want to analyze the hiring process of the organization where the important aspects to be presented would be the hiring source, quality of employees hired from these sources, attrition rate, employee satisfaction score, etc.
    </li>
  </ol>
  Apart from these requirements, if our firm can provide some additional insights or suggestions that may prove vital in the app development, they can surely do so.
