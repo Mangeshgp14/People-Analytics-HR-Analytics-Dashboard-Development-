@@ -38,13 +38,3 @@ They want a dashboard that can automatically update as and when the backend data
  
 
 <h3>Key Insights</h3>
-<ol>
- <li>The client can go for a Free app to reach a wider range of audience. The best category to build an app for free is 'Communication'. For Paid apps the best category is 'Games'.
-</li>
- <li>For free apps the client can opt for ads or a subscription-based model to generate revenue. For the Paid Apps, an average revenue of 28 lakhs can be generated from the Games category.
- </li>
- <li>Any app built in the top five categories will get an average rating of 4+.
- </li>
- <li>The client can use the size of the app as an important factor in deciding the limit on the app size.
- </li>
-</ol>
