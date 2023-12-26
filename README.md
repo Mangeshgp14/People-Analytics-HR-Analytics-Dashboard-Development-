@@ -1,7 +1,7 @@
 <h1 align="center">People Analytics : HR Analytics Dashboard Development</h1>
 
 
-<img width="1000" src="https://github.com/Mangeshgp14/Google-Play-Store-Analysis-for-App-Launch/blob/main/play%20store%20image.jpg" >
+<img width="1000" src="https://github.com/Mangeshgp14/People-Analytics-HR-Analytics-Dashboard-Development-/blob/main/HR%20Analytics.jpg" >
 
 <h3>Project Report : <a href="https://drive.google.com/file/d/1tNhVYx7UJC5ZdQaL4eaujFUK_1Be42H2/view?usp=sharing">Link</a></h3>
 
