@@ -19,11 +19,20 @@ They want a dashboard that can automatically update as and when the backend data
  Apart from these requirements, if our firm can provide some additional insights or suggestions that may prove vital in the app development, they can surely do so.
 </p>
 
-<h3>Tools Used</h3>
+<h3>Tech Stack</h3>
 
  <ol>
   <li>
-   Excel: Data Loading, Data cleaning, Data Analysis, Data visualization
+   Excel: Data Loading
+  </li>
+    <li>
+   Python (Pandas): Data Preprocessing, Data loading into Database
+  </li>
+    <li>
+   MySQL: Data Storage
+  </li>
+    <li>
+   Power BI: Dashboard Development
   </li>
  </ol>
  
