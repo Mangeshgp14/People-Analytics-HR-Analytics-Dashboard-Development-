@@ -35,6 +35,72 @@ They want a dynamic dashboard that seamlessly connects to their prevailing datab
 2.2. It will be a single Excel file that will contain all the data points necessary to satisfy the client's dashboard requirement.
 
 <h4>3. Building Data Pipeline </h4>
+
+3.1. To automate the entire workflow and ensure the data is kept secure, the best approach would be to load the data from the Excel file into an SQL database and connect it to PowerBI to create a seamless, robust, and secure data pipeline that can be constant monitored and updates as per requirement.
+3.2. We will be using Python to load data into a MySQL relational database. 
+3.3. The Python library named 'sqlalchemy' will be used to connect to MySQL and create a database and ingest data into it.
+
+**1.1. Python Script to load the dataset(CSV files) into MySQL database**
+
+````PYTHON
+# Installing necessary libraries
+#!pip install mysql-connector-python
+#!pip install pandas
+#!pip install sqlalchemy
+
+#Also create a python file name 'config' that contains all the confidential credentials.
+````
+
+````PYTHON
+# Importing Libraries
+import pandas as pd
+from sqlalchemy import create_engine
+import config
+````
+
+````PYTHON
+# MySQL database configuration
+db_config = {
+    'user': config.username,
+    'password': config.password,
+    'host': config.host,
+    'raise_on_warnings': True
+}
+
+# Create a SQLAlchemy engine to connect to the MySQL server
+mysql_engine = create_engine(f"mysql+mysqlconnector://{db_config['user']}:{db_config['password']}@{db_config['host']}")
+````
+````PYTHON
+# Create a new database
+new_database_name = 'HR_ANALYTICS_DATABASE'
+with mysql_engine.connect() as connection:
+    connection.execute(f"CREATE DATABASE IF NOT EXISTS {new_database_name}")
+
+# Connect to the newly created database
+db_config['database'] = new_database_name
+engine = create_engine(f"mysql+mysqlconnector://{db_config['user']}:{db_config['password']}@{db_config['host']}/{db_config['database']}")
+
+````
+
+
+````PYTHON
+# Loading CSV files as tables into the database
+csv_files = ['HR_data']
+
+for i in csv_files :
+    
+    # CSV file path
+    csv_file_path = f'{i}.csv'
+
+    # Table name in MySQL
+    table_name = f'{i}'
+
+    # Read CSV into a Pandas DataFrame
+    df = pd.read_csv(csv_file_path)
+
+    # Insert DataFrame records into MySQL using SQLAlchemy
+
+
 <h4>4. Developing Dashboard </h4>
 <h4>5. Deriving Insights </h4>
 
