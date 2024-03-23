@@ -36,11 +36,11 @@ They want a dynamic dashboard that seamlessly connects to their prevailing datab
 
 <h4>3. Building Data Pipeline </h4>
 
-3.1. To automate the entire workflow and ensure the data is kept secure, the best approach would be to load the data from the Excel file into an SQL database and connect it to PowerBI to create a seamless, robust, and secure data pipeline that can be constant monitored and updates as per requirement.
-3.2. We will be using Python to load data into a MySQL relational database. 
-3.3. The Python library named 'sqlalchemy' will be used to connect to MySQL and create a database and ingest data into it.
+3.1. To automate the entire workflow and ensure the data is kept secure, the best approach would be to load the data from the Excel file into an SQL database and connect it to PowerBI to create a seamless, robust, and secure data pipeline that can be constant monitored and updates as per requirement. <br>
+3.2. We will be using Python to load data into a MySQL relational database. <br>
+3.3. The Python library named 'sqlalchemy' will be used to connect to MySQL and create a database and ingest data into it. <br>
 
-**1.1. Python Script to load the dataset(CSV files) into MySQL database**
+**Python Script to load the dataset(CSV files) into MySQL database**
 
 ````PYTHON
 # Installing necessary libraries
