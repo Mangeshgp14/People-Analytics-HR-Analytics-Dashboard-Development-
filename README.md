@@ -21,8 +21,19 @@ They want a dynamic dashboard that seamlessly connects to their prevailing datab
 
 <h3>Solution 💡:</h3>
 
-<h4>1. Identifying client's requirement </h4>
-<h4>2. Understanding client's database system </h4>
+<h4>1. Understanding client's requirement 🤝🏻 </h4>
+
+1.1. The client has requested the development of dashboards to visually depict the current employee diversity within their organization, as well as to showcase the existing hiring process.<br>
+1.2. Key Performance Indicators (KPIs) for the first objective include the gender ratio, total employee count, and year-on-year growth.<br>
+1.3. KPIs for the second objective encompass the attrition rate, employee engagement and satisfaction scores, and the quality of past recruitments.<br>
+1.4. The client prefers simple, user-friendly dashboards that are easy to use and understand.
+
+
+<h4>2. Understanding client's database system 🛢️ </h4>
+
+2.1. The client's current employee management system stored the data in the form of Excel files. They are going to provide these files as the input to our data pipeline. <br>
+2.2. It will be a single Excel file that will contain all the data points necessary to satisfy the client's dashboard requirement.
+
 <h4>3. Building Data Pipeline </h4>
 <h4>4. Developing Dashboard </h4>
 <h4>5. Deriving Insights </h4>
