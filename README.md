@@ -9,7 +9,7 @@
 <p>
 The Human Resources department of ABC, a multinational company has approached our analytics firm. They are seeking our help in building a modern, interactive dashboard to present to their management executives.
 They have identified some key aspects which need to be depicted in these dashboards.
-They want a dashboard that can automatically update as and when the backend data is annually updated.
+They want a dynamic dashboard that seamlessly connects to their prevailing database and provides actionable insights to the stakeholders.
 <ol>
    <li> The client wants to present some KPIs such as employee count, employee diversity, YoY growth, etc to the top executive management.
    </li>
@@ -18,6 +18,17 @@ They want a dashboard that can automatically update as and when the backend data
  </ol>
  Apart from these requirements, if our firm can provide some additional insights or suggestions that may prove vital in the app development, they can surely do so.
 </p>
+
+<h3>Solution 💡:</h3>
+
+<h4>1. Identifying client's requirement </h4>
+<h4>2. Understanding client's database system </h4>
+<h4>3. Building Data Pipeline </h4>
+<h4>4. Developing Dashboard </h4>
+<h4>5. Deriving Insights </h4>
+
+
+
 
 <h3>Tech Stack</h3>
 
